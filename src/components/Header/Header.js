@@ -12,7 +12,7 @@ function Header() {
         <Link to="/"><h1>Jorgelina Parkinson</h1></Link>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className='rigthNavbarContainer'>
+        <Navbar.Collapse className='rightNavbarContainer'>
           <Nav className='rightNavbar'>
             <NavLink className='navbarItems' to="/">Inicio</NavLink>
             <NavLink className='navbarItems' to="/about">Bio</NavLink>
