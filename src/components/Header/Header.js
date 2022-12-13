@@ -9,7 +9,7 @@ function Header() {
   return (
     <Navbar expand="lg" className='navbar'>
       <Container>
-        <Link to="/"><h1>Jorgelina Parkinson</h1></Link>
+        <NavLink to="/"><p className='title'>Jorgelina Parkinson</p></NavLink>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className='rightNavbarContainer'>
