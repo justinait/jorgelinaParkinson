@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #4B4B4B;
+    color: white;
+    display: flex;
+    /* margin-top: 100px; */
+    position: sticky;
+    top: 80px;
+    
+
+    /* position: fixed !important; */
+    
+    width: 100%;
+    padding-bottom: 60px;
+    z-index: 10;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+.rightNavbar {
+    justify-content: flex-end;
+    
+    /* width: 50%; */
+    flex-direction: row-reverse;
+}
+
+
+.navbarItems {
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-decoration: none;
+}
