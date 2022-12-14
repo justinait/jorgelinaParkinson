@@ -8,10 +8,10 @@ import './Header.css'
 function Header() {
   return (
     <Navbar expand="lg" className='navbar'>
-      <Container>
+      <Container className='navbarContainer'>
         <NavLink className='title' to="/">Jorgelina Parkinson</NavLink>
         
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle expand="lg" aria-controls="basic-navbar-nav" className='hamburgerMenu' variant="light"/>
         <Navbar.Collapse className='rightNavbarContainer'>
           <Nav className='rightNavbar'>
             <NavLink className='navbarItems' to="/">Inicio</NavLink>
