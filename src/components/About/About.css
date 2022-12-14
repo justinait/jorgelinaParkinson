@@ -5,10 +5,37 @@ h1 {
 .about {
     display: flex;
     flex-direction: row;
-    padding: 7%;
+    padding: 10%;
 }
 
 .curriculum {
-    margin-right: 5%;
-    font-size: 20px;
+    margin-right: 7%;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+}
+
+.photoCv {
+    display: none;
+    max-height: 600px;
+}
+
+@media (min-width: 768px) {
+    .photoCv {
+        display: block;
+    }
+    .curriculum {
+        margin-right: 7%;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .photoCv {
+        display: block;
+    }
+    .curriculum {
+        margin-right: 7%;
+        font-size: 18px;
+    }
 }

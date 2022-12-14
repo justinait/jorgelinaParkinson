@@ -6,11 +6,12 @@
     top: 80px;
     z-index: 10;
     height: 80px;
-    
+    font-size: 20px;
 }
 
 .rightNavbarContainer {
-    justify-content: flex-end !important;
+    justify-content: flex-end;
+    padding-right: 100px;
 }
 
 .navbarItems {
@@ -20,8 +21,31 @@
     text-decoration: none;
 }
 
+#basic-nav-dropdown {
+    color: white;
+    padding: 10px;
+}
+
+.navbarItems:hover,
+#basic-nav-dropdown:hover {
+    color: black;
+    font-weight: 600;
+}
+
+.navbarItems:focus {
+    color:black;
+    font-weight: 600;
+}
+
 .title {
     color: white;
     text-decoration: none;
+    font-size: 44px;
+    transition-property: font-size, color;
+    transition-duration: 0.7s;
+}
+
+.title:hover {
+    color:rgb(176, 176, 176);
     font-size: 46px;
 }
