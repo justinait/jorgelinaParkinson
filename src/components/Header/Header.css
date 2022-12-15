@@ -4,9 +4,9 @@
     display: flex;
     position: sticky;
     z-index: 10;
-    top: 80px;
-    height: 80px;
-    font-size: 20px;
+    top: 55px;
+    height: 64px;
+    font-size: 16px;
 }
 
 .rightNavbarContainer {
@@ -50,9 +50,15 @@
     padding: 10px;
 }
 
-@media (min-width: 674px) {
+@media (min-width: 614px) {
     .title {
         font-size: 33px;
+    }
+    .navbar{
+            
+        top: 80px;
+        height: 80px;
+        font-size: 20px;
     }
 }
 

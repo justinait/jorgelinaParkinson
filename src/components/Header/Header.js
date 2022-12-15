@@ -7,7 +7,7 @@ import './Header.css'
 
 function Header() {
   return (
-    <Navbar expand="lg" className='navbar'>
+    <Navbar expand="lg" variant="dark" className='navbar'>
       <Container className='navbarContainer'>
         <NavLink className='title' to="/">Jorgelina Parkinson</NavLink>
         
