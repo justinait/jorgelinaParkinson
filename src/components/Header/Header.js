@@ -17,9 +17,9 @@ function Header() {
             <NavLink className='navbarItems' to="/">Inicio</NavLink>
             <NavLink className='navbarItems' to="/about">Bio</NavLink>
             <NavDropdown title="Obras" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/about">Paisajes</NavDropdown.Item>
-              <NavDropdown.Item href="/">Mujeres SXX</NavDropdown.Item>
-              <NavDropdown.Item href="/">Naturaleza muerta</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Paisajes</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Mujeres SXX</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Naturaleza muerta</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

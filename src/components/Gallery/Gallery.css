@@ -1,0 +1,42 @@
+.gallery {
+    margin: 10%;
+}
+
+.serieTitle {
+    margin-left: 4%;
+}
+
+.galleryContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.galleryPainting {
+    /* height: square;
+    width: square; */
+    padding: 1%;
+}
+
+@media (min-width: 364px){
+
+    .galleryContainer {
+        flex-direction: row;
+        width: 45%;
+    }
+    
+    .galleryPainting {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 764px){
+
+    .galleryPainting {
+        width: 23.3%;
+        justify-content: flex-start;
+    }
+}
