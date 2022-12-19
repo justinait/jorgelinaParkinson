@@ -4,6 +4,7 @@
 
 .serieTitle {
     margin-left: 4%;
+    margin-top: 24%;
 }
 
 .galleryContainer {
@@ -15,28 +16,27 @@
 }
 
 .galleryPainting {
-    /* height: square;
-    width: square; */
     padding: 1%;
+    width: 80vw;
 }
 
-@media (min-width: 364px){
+@media (min-width: 614px){
 
     .galleryContainer {
         flex-direction: row;
-        width: 45%;
     }
     
     .galleryPainting {
-        width: 200px;
-        height: 200px;
+        object-fit: cover;
+        width: 33%;
+        justify-content: flex-start;
     }
 }
 
-@media (min-width: 764px){
+@media (min-width: 992px){
 
     .galleryPainting {
         width: 23.3%;
-        justify-content: flex-start;
+        
     }
 }
