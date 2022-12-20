@@ -3,9 +3,7 @@ import Carousel from '../Carousel/Carousel.js'
 
 function Home() {
   return (
-    <div>
-      <Carousel/>
-    </div>
+    < Carousel />
   )
 }
 

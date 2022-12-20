@@ -1,7 +1,26 @@
+.carouselItem {
+    height: 100vh;
+}
+
+.carouselMobile {
+    display: block;
+}
+
+.carouselDesktop {
+    display: none;
+}
+
 .carousel {
     margin-top: -80px;
 }
 
-.carouselItem {
-    height: 100vh;
+
+@media (min-width: 576px) {
+    .carouselDesktop {        
+        display: block;
+    }
+    
+    .carouselMobile {
+        display: none;
+    }
 }
