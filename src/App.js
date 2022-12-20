@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from './components/About/About';
 import Gallery from './components/Gallery/Gallery';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path='/gallery/:gallery' element={< Gallery />} />
         
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </BrowserRouter>
   );
 }
