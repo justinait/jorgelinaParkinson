@@ -6,7 +6,7 @@
     z-index: 10;
     top: 55px;
     height: 64px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .rightNavbarContainer {
@@ -24,6 +24,10 @@
     transition-property: font-size, color;
     transition-duration: 0.7s;
 }
+
+.title:hover {
+    color: white;
+}
     
 .navbarItems {
     padding: 10px;
@@ -34,6 +38,10 @@
 #basic-nav-dropdown {
     color: white;
     padding: 10px;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
 }
 
 @media (min-width: 614px) {
