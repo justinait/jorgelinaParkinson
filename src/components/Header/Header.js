@@ -17,9 +17,13 @@ function Header() {
             <NavLink className='navbarItems' to="/">Inicio</NavLink>
             <NavLink className='navbarItems' to="/about">Bio</NavLink>
             <NavDropdown title="Obras" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/gallery">Paisajes</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery">Mujeres SXX</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery">Naturaleza muerta</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Puentes y puertos</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Riachuelo</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Mi tierra</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Rostros</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Mujeres en el Siglo XX</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Situaciones cotidianas</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery">Interiores</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

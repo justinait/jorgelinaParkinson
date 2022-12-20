@@ -9,7 +9,7 @@
 
 .galleryContainer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -30,6 +30,11 @@
         object-fit: cover;
         width: 33%;
         justify-content: flex-start;
+        aspect-ratio: 1/1;
+    }
+    
+    .serieTitle {
+        margin-top: 20%;
     }
 }
 
@@ -37,6 +42,9 @@
 
     .galleryPainting {
         width: 23.3%;
-        
+    }
+
+    .serieTitle {
+        margin-top: 15%;
     }
 }

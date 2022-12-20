@@ -15,16 +15,7 @@
     border-radius: 5px;
     height: 200px;
     display: flex;
-    
-    /* width: 100vw;
-    margin: 0;
-    padding: 0; */
-
 }
-
-/* .hamburgerMenu {
-    color: white;
-} */
 
 .title {
     color: white;
@@ -32,11 +23,6 @@
     font-size: 26px;
     transition-property: font-size, color;
     transition-duration: 0.7s;
-}
-
-.title:hover {
-    color:rgb(176, 176, 176);
-    font-size: 46px;
 }
     
 .navbarItems {
@@ -63,6 +49,11 @@
 }
 
 @media (min-width: 992px) {
+
+    .title:hover {
+        color:rgb(176, 176, 176);
+        font-size: 46px;
+    }
 
     .rightNavbarContainer {
         justify-content: flex-end;
