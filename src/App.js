@@ -20,7 +20,7 @@ function App() {
         <Route path='/gallery/:gallery' element={< Gallery />} />
         
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </BrowserRouter>
   );
 }
