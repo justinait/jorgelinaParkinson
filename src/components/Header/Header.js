@@ -6,6 +6,16 @@ import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 function Header() {
+
+  //navbarItems on click docuemnt queryselector
+  //removeclass show
+
+  var rightNavbarContainer = document.getElementsByClassName('rightNavbarContainer');
+  
+  const collapseMenu = () => {
+    rightNavbarContainer.removeClassName('show')
+  }
+
   return (
     <Navbar expand="lg" variant="dark" className='navbar'>
       <Container className='navbarContainer'>
@@ -14,8 +24,8 @@ function Header() {
         <Navbar.Toggle expand="lg" aria-controls="basic-navbar-nav" className='hamburgerMenu' variant="light"/>
         <Navbar.Collapse className='rightNavbarContainer'>
           <Nav className='rightNavbar'>
-            <NavLink className='navbarItems' to="/">Inicio</NavLink>
-            <NavLink className='navbarItems' to="/about">Bio</NavLink>
+            <NavLink className='navbarItems' onClick={collapseMenu} to="/">Inicio</NavLink>
+            <NavLink className='navbarItems' onClick={collapseMenu} to="/about">Bio</NavLink>
             <NavDropdown title="Obras" id="basic-nav-dropdown">
               <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
               <NavDropdown.Item href="/gallery" className='navDropdownItem'>Riachuelo</NavDropdown.Item>

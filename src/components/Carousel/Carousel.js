@@ -4,6 +4,7 @@ import './Carousel.css'
 function CarouselFade() {
   return (
     <div>
+      {/* Desktop Carousel */}
       <Carousel fade className='carousel carouselDesktop'>
         <Carousel.Item className='carouselItem'>
           <img
@@ -22,7 +23,6 @@ function CarouselFade() {
             src='./carousel/humanFigure (22).jpg'
             alt="Second slide"
           />
-
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -43,6 +43,7 @@ function CarouselFade() {
         </Carousel.Item>
       </Carousel>
 
+      {/* Mobile Carousel */}
       <Carousel fade className='carousel carouselMobile'>
       <Carousel.Item className='carouselItem'>
         <img
