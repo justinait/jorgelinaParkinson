@@ -27,6 +27,11 @@ function Header() {
             <NavLink className='navbarItems' onClick={collapseMenu} to="/">Inicio</NavLink>
             <NavLink className='navbarItems' onClick={collapseMenu} to="/about">Bio</NavLink>
             <NavDropdown title="Obras" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/gallery/bridges-ports" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/landscape" className='navDropdownItem'>Paisajes</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
               <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
               <NavDropdown.Item href="/gallery" className='navDropdownItem'>Riachuelo</NavDropdown.Item>
               <NavDropdown.Item href="/gallery" className='navDropdownItem'>Mi tierra</NavDropdown.Item>
