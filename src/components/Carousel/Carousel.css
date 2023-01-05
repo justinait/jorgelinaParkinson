@@ -14,17 +14,30 @@
     display: none;
 }
 
+.carouselTablet {
+    display: none;
+}
+
 .carousel {
     margin-top: -80px;
 }
 
+@media (min-width: 476px) {
+    .carouselTablet {        
+        display: block;
+    }
+    
+    .carouselMobile {
+        display: none;
+    }
+}
 
 @media (min-width: 576px) {
     .carouselDesktop {        
         display: block;
     }
     
-    .carouselMobile {
+    .carouselTablet {
         display: none;
     }
 }

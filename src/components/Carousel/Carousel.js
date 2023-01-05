@@ -67,6 +67,31 @@ function CarouselFade() {
         />
       </Carousel.Item>
       </Carousel>
+
+      {/* Tablet Carousel */}
+      <Carousel fade className='carousel carouselTablet'>
+      <Carousel.Item className='carouselItem'>
+        <img
+          className="d-block w-100"
+          src='./paintings/landscape/landscape (6).jpg'
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item className='carouselItem'>
+        <img
+          className="d-block w-100"
+          src='./paintings/faces/faces (1).jpg'
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item className='carouselItem'>
+        <img
+          className="d-block w-100"
+          src='./paintings/everyday-situations/situations (6).jpg'
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      </Carousel>
     </div>
     
   );
