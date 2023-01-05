@@ -27,18 +27,19 @@ function Header() {
             <NavLink className='navbarItems' onClick={collapseMenu} to="/">Inicio</NavLink>
             <NavLink className='navbarItems' onClick={collapseMenu} to="/about">Bio</NavLink>
             <NavDropdown title="Obras" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/gallery/bridges-ports" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/ports" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/cinder" className='navDropdownItem'>Carbonilla</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/situations" className='navDropdownItem'>Situaciones</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/faces" className='navDropdownItem'>Rostros</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/flowers" className='navDropdownItem'>Flores</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/human-figure" className='navDropdownItem'>Figura humana</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/ink" className='navDropdownItem'>Tinta</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/interiors" className='navDropdownItem'>Interiores</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/landscape" className='navDropdownItem'>Paisajes</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Riachuelo</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Mi tierra</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Rostros</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Mujeres en el Siglo XX</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Situaciones cotidianas</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery" className='navDropdownItem'>Interiores</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/parana" className='navDropdownItem'>Paraná</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/route40" className='navDropdownItem'>Ruta 40</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/still-life" className='navDropdownItem'>Naturaleza muerta</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/women" className='navDropdownItem'>Mujeres en el Siglo XX</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

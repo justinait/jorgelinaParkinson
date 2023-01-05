@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from './components/About/About';
 import Gallery from './components/Gallery/Gallery';
 import Footer from './components/Footer/Footer';
+import GalleryContainer from './components/GalleryContainer/GalleryContainer';
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
         
         <Route path='/about' element={< About />} />
 
-        <Route path='/gallery' element={< Gallery />} />
-        <Route path='/gallery/:gallery' element={< Gallery />} />
+        <Route path='/gallery/:category' element={< GalleryContainer />} />
         
       </Routes>
       {/* <Footer/> */}
