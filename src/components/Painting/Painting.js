@@ -8,11 +8,11 @@ function Painting({data}) {
   for(let i=1; i<objectLength; i++){
     array = [...array, i];
   }
+  
   return (
     <div>
       {array.map(e => {
         return <PaintingModal photo={data[e]} />
-        //<img className='galleryPainting' src={`${data[e]}`}  alt={`${data[e]}`} />
       })}
     </div>
   )

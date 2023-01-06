@@ -1,9 +1,15 @@
 .modalPhoto{
-    
     max-width: 80vw;
     max-height: 90vh;
     min-height: 30vh;
-    
+}
+
+.galleryPainting:hover{
+    background-color: white;
+    opacity: 0.4;
+    padding: 1%;
+    transition-property:  all;
+    transition-duration: 0.5s;
 }
 
 .modal-content {
