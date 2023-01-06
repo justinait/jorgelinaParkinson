@@ -55,7 +55,7 @@ function CarouselFade() {
       <Carousel.Item className='carouselItem'>
         <img
           className="d-block w-100"
-          src='./paintings/flowers/flowers (3).jpg'
+          src='./paintings/women/women (17).jpg'
           alt="Second slide"
         />
       </Carousel.Item>
