@@ -12,7 +12,7 @@ function PaintingModal({photo}) {
   return (
     <>
     
-      <img className='galleryPainting' src={photo}  alt={photo}  onClick={handleShow}/>
+      <img className='galleryPainting' src={photo}  onClick={handleShow}/>
 
       <Modal show={show} onHide={handleClose}>
           <img src={photo}  alt={photo} className='modalPhoto' />
