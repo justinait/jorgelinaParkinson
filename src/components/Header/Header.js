@@ -25,7 +25,7 @@ function Header() {
         <Navbar.Collapse className='rightNavbarContainer'>
           <Nav className='rightNavbar'>
             <NavLink className='navbarItems' onClick={collapseMenu} to="/">Inicio</NavLink>
-            <NavLink className='navbarItems' onClick={collapseMenu} to="/about">Bio</NavLink>
+            <NavLink className='navbarItems' onClick={collapseMenu} to="/about">Biografia</NavLink>
             <NavDropdown title="Obras" id="basic-nav-dropdown">
               <NavDropdown.Item href="/gallery/ports" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/cinder" className='navDropdownItem'>Carbonilla</NavDropdown.Item>
