@@ -2,7 +2,7 @@
     
     max-width: 80vw;
     max-height: 90vh;
-    min-height: 40vh;
+    min-height: 30vh;
     
 }
 
@@ -11,4 +11,10 @@
     align-items: center;
     background-color: #fff0;
     border: none;
+}
+
+@media (min-width: 500px){
+    .modalPhoto{
+        min-height: 40vh;
+    }
 }
