@@ -29,9 +29,8 @@ function Header() {
             <NavDropdown title="Obras" id="basic-nav-dropdown">
               <NavDropdown.Item href="/gallery/ports" className='navDropdownItem'>Puentes y puertos</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/cinder" className='navDropdownItem'>Carbonilla</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery/situations" className='navDropdownItem'>Situaciones</NavDropdown.Item>
+              <NavDropdown.Item href="/gallery/situations" className='navDropdownItem'>Situaciones cotidianas</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/faces" className='navDropdownItem'>Rostros</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery/flowers" className='navDropdownItem'>Flores</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/human-figure" className='navDropdownItem'>Figura humana</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/ink" className='navDropdownItem'>Tinta</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/interiors" className='navDropdownItem'>Interiores</NavDropdown.Item>
