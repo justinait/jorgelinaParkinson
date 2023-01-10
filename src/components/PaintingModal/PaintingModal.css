@@ -4,14 +4,6 @@
     min-height: 30vh;
 }
 
-.galleryPainting:hover{
-    background-color: white;
-    opacity: 0.4;
-    padding: 1%;
-    transition-property:  all;
-    transition-duration: 0.5s;
-}
-
 .modal-content {
     justify-content: center;
     align-items: center;
@@ -22,5 +14,15 @@
 @media (min-width: 500px){
     .modalPhoto{
         min-height: 40vh;
+    }
+}
+
+@media (min-width: 992px){
+    .galleryPainting:hover{
+        background-color: white;
+        opacity: 0.4;
+        padding: 1%;
+        transition-property:  all;
+        transition-duration: 0.5s;
     }
 }
