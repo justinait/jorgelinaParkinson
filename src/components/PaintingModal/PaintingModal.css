@@ -11,9 +11,19 @@
     border: none !important;
 }
 
+.fade {
+    background-color: #fff9 !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: 500px){
     .modalPhoto{
         min-height: 40vh;
+    }
+    .fade {
+        background-color: #0007 !important;
     }
 }
 
