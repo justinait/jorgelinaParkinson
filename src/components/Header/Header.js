@@ -31,9 +31,9 @@ function Header() {
               <NavDropdown.Item href="/gallery/cinder" className='navDropdownItem'>Carbonilla</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/situations" className='navDropdownItem'>Situaciones cotidianas</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/faces" className='navDropdownItem'>Rostros</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery/human-figure" className='navDropdownItem'>Figura humana</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/gallery/human-figure" className='navDropdownItem'>Figura humana</NavDropdown.Item> */}
               <NavDropdown.Item href="/gallery/ink" className='navDropdownItem'>Tinta</NavDropdown.Item>
-              <NavDropdown.Item href="/gallery/interiors" className='navDropdownItem'>Interiores</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/gallery/interiors" className='navDropdownItem'>Interiores</NavDropdown.Item> */}
               <NavDropdown.Item href="/gallery/landscape" className='navDropdownItem'>Paisajes</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/parana" className='navDropdownItem'>Paraná</NavDropdown.Item>
               <NavDropdown.Item href="/gallery/route40" className='navDropdownItem'>Ruta 40</NavDropdown.Item>
