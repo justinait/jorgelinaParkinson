@@ -9,7 +9,7 @@ function CarouselFade() {
         <Carousel.Item className='carouselItem'>
           <img
             className="d-block w-100"
-            src='./paintings/landscape/landscape (8).jpg'
+            src='./paintings/bridges-ports/ports (19).jpg'
             alt="First slide"
           />
           {/* <Carousel.Caption>
@@ -20,7 +20,7 @@ function CarouselFade() {
         <Carousel.Item className='carouselItem'>
           <img
             className="d-block w-100"
-            src='./paintings/women/women (1).jpg'
+            src='./paintings/women/women (6).jpg'
             alt="Second slide"
           />
           {/* <Carousel.Caption>
@@ -31,7 +31,7 @@ function CarouselFade() {
         <Carousel.Item className='carouselItem'>
           <img
             className="d-block w-100"
-            src='./paintings/bridges-ports/ports (8).jpg'
+            src='./paintings/landscape/landscape (2).jpg'
             alt="Third slide"
           />
           {/* <Carousel.Caption>
@@ -48,21 +48,21 @@ function CarouselFade() {
       <Carousel.Item className='carouselItem'>
         <img
           className="d-block w-100"
-          src='./paintings/bridges-ports/ports (6).jpg'
+          src='./paintings/bridges-ports/ports (14).jpg'
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
         <img
           className="d-block w-100"
-          src='./paintings/women/women (17).jpg'
+          src='./paintings/everyday-situations/situations (10).jpg'
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
         <img
           className="d-block w-100"
-          src='./paintings/women/women (28).jpg'
+          src='./paintings/faces/faces (16).jpg'
           alt="Third slide"
         />
       </Carousel.Item>
@@ -80,14 +80,14 @@ function CarouselFade() {
       <Carousel.Item className='carouselItem'>
         <img
           className="d-block w-100"
-          src='./paintings/landscape/landscape (36).jpg'
+          src='./paintings/everyday-situations/situations (11).jpg'
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item className='carouselItem'>
         <img
           className="d-block w-100"
-          src='./paintings/everyday-situations/situations (6).jpg'
+          src='./paintings/interiors/interiors (3).jpg'
           alt="Third slide"
         />
       </Carousel.Item>
