@@ -91,7 +91,10 @@ Seminario de Alugrafia y Poliéster con Natalia Giachetta.
           </li>
         </ul>
       </div>
-      <img src='./bio.jpg' alt="" className='photoCv'/>
+      <a href='https://www.instagram.com/jorgelinaparkinson/' target="_blank">
+        <img src='./bio.jpg' alt="" className='photoCv'/>
+      </a>
+      
     </div>
     
   )
