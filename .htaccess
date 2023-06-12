@@ -1,7 +1,6 @@
 RewriteEngine On
 RewriteBase /
-
-# Redirigir todas las solicitudes a index.html, excepto para archivos y directorios existentes
+RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule !^ruta-excluida($|/) /gallery/cinder [L]
+RewriteRule . /index.html [L]
