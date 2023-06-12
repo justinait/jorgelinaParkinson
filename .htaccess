@@ -1,13 +1,1 @@
-RewriteEngine On
-RewriteBase /
-
-# Redirigir todas las solicitudes a index.html, excepto para archivos y directorios existentes
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.html [L]
-
-# Permitir el enrutamiento anidado
-RewriteCond %{REQUEST_URI} !^/index.html$
-RewriteCond %{REQUEST_URI} !^/ruta-existente$
-RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|gif)$ [NC]
-RewriteRule ^(.*)$ /index.html [L]
+FallbackResource /index.html
