@@ -3,6 +3,7 @@ import db from '../../firebaseConfig';
 import { getDocs, collection } from 'firebase/firestore'
 import { useParams } from 'react-router-dom';
 import Gallery from '../Gallery/Gallery';
+import Footer from '../Footer/Footer';
 
 function GalleryContainer() {
     
@@ -52,6 +53,7 @@ function GalleryContainer() {
   return(
     <div>
       <Gallery dataImages={listPaintings}/>
+      < Footer />
     </div>
   )
 }

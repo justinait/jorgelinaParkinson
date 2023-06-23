@@ -20,7 +20,6 @@ function App() {
         <Route path='/gallery/:category' element={< GalleryContainer />} />
         
       </Routes>
-      {/* <Footer/> */}
     </BrowserRouter>
   );
 }

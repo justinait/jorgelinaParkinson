@@ -4,7 +4,7 @@ h1 {
 
 .about {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 27% 10%;
 }
 
@@ -15,13 +15,19 @@ h1 {
 }
 
 .photoCv {
-    display: none;
+    display: block;
+    height: 100%;
+    width: 90%;
 }
 
 @media (min-width: 768px) {
+    .about {
+        flex-direction: row;
+    }
     .photoCv {
         display: block;
         max-height: 400px;
+        width: 40vw;
     }
     .curriculum {
         margin-right: 7%;

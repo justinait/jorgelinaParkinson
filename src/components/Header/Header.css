@@ -20,7 +20,7 @@
 .title {
     color: white;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 22px;
     transition-property: font-size, color;
     transition-duration: 0.7s;
 }
