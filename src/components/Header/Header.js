@@ -7,9 +7,6 @@ import './Header.css'
 
 function Header() {
 
-  //navbarItems on click docuemnt queryselector
-  //removeclass show
-
   var rightNavbarContainer = document.getElementsByClassName('rightNavbarContainer');
   
   const collapseMenu = () => {

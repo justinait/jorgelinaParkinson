@@ -35,7 +35,7 @@ function GalleryContainer() {
       let array = Object.values(paintingsImages)
       console.log(array)
 
-      return array//aca vas a tener q mapear este paintings images hasta q no haya mais
+      return array
     }
 
   }
