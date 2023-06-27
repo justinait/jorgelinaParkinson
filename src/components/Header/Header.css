@@ -60,11 +60,6 @@
 
 @media (min-width: 992px) {
 
-    /* .title:hover {
-        color:rgb(176, 176, 176);
-        font-size: 46px;
-    } */
-
     .rightNavbarContainer {
         justify-content: flex-end;
         padding-right: 100px;
