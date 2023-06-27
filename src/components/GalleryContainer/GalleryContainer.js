@@ -31,9 +31,9 @@ function GalleryContainer() {
       paintingsImages.map(e => {        
         return e        
       })
-
+      
       let array = Object.values(paintingsImages)
-      console.log(array)
+      // console.log(array)
 
       return array
     }

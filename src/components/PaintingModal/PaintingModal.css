@@ -12,10 +12,15 @@
 }
 
 .fade {
-    background-color: #fff9 !important;
+    /* background-color: #fff9 !important; */
+    background-color: #0007 !important;
     display: flex !important;
     justify-content: center;
     align-items: center;
+}
+
+.paintingDescription {
+    width: 100%;
 }
 
 @media (min-width: 500px){

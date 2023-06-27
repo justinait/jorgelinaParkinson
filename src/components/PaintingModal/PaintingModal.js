@@ -12,10 +12,16 @@ function PaintingModal({photo}) {
   return (
     <>
     
-      <img className='galleryPainting' src={photo}  onClick={handleShow}/>
+      <img className='galleryPainting' src={photo.image}  onClick={handleShow}/>
+      <div className='paintingDescription'>
+        <p> {photo.award} {photo.title} {photo.type} {photo.cm}</p>    
+      </div>
+      
+      {/* <p> {`${photo.award}.`} {photo.title + '.'} {photo.type + '.'} {photo.cm}</p> */}
+
 
       <Modal show={show} onHide={handleClose}>
-          <img src={photo}  alt={photo} className='modalPhoto' />
+          <img src={photo.image}  alt={photo.title} className='modalPhoto' />
       </Modal>
 
     </>

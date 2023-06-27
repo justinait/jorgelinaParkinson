@@ -7,13 +7,17 @@ function Gallery({dataImages}) {
     <div className='gallery'>
       {/* <p className='serieTitle'>Nombre de la serie</p> */}
       <div className='galleryContainer'>
+        
         {      
           dataImages.map((e, i) => {
+            
+      {console.log(e[1].image)}
           return (
             <Painting key={e.id+i} data={e}/>
           )
           })
         }
+        
       </div>
     </div>
       
