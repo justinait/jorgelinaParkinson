@@ -27,9 +27,13 @@
     .gallery {
         margin-top: 13%;
     }
-
+    
     .galleryContainer {
         flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
     }
     
     .galleryPainting {
@@ -47,11 +51,26 @@
 
 @media (min-width: 992px){
 
-    .galleryPainting {
-        width: 23.3%;
+    .paintingContainer {
+        width: 33%;
+        padding: 2%;
     }
 
+    .galleryPainting {
+        width: 90%;
+    }
+    .paintingDescription{
+        width: 75%;
+    }
     .serieTitle {
         margin-top: 15%;
+    }
+
+    .galleryPainting:hover{
+        background-color: white;
+        opacity: 0.4;
+        padding: 1%;
+        transition-property:  all;
+        transition-duration: 0.5s;
     }
 }

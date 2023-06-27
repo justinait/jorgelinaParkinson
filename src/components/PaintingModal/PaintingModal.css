@@ -19,25 +19,11 @@
     align-items: center;
 }
 
-.paintingDescription {
-    width: 100%;
-}
-
 @media (min-width: 500px){
     .modalPhoto{
         min-height: 40vh;
     }
     .fade {
         background-color: #0007 !important;
-    }
-}
-
-@media (min-width: 992px){
-    .galleryPainting:hover{
-        background-color: white;
-        opacity: 0.4;
-        padding: 1%;
-        transition-property:  all;
-        transition-duration: 0.5s;
     }
 }

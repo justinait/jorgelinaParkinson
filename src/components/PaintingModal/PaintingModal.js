@@ -11,10 +11,10 @@ function PaintingModal({photo}) {
   
   return (
     <>
-    
-      <img className='galleryPainting' src={photo.image}  onClick={handleShow}/>
-      <div className='paintingDescription'>
-        <p> {photo.award} {photo.title} {photo.type} {photo.cm}</p>    
+      <div className='paintingContainer'>
+        <img className='galleryPainting' src={photo.image}  onClick={handleShow}/>
+      
+        <p className='paintingDescription'> {photo.award} {photo.title} {photo.type} {photo.cm}</p>    
       </div>
       
       {/* <p> {`${photo.award}.`} {photo.title + '.'} {photo.type + '.'} {photo.cm}</p> */}

@@ -10,12 +10,12 @@ function Painting({data}) {
   }
   
   return (
-    <div>
+    <>
       {array.map(e => {
         return <PaintingModal photo={data[e]} />
         // photo={data[e].image}
       })}
-    </div>
+    </>
   )
 }
 

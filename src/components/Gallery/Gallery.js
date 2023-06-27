@@ -11,7 +11,6 @@ function Gallery({dataImages}) {
         {      
           dataImages.map((e, i) => {
             
-      {console.log(e[1].image)}
           return (
             <Painting key={e.id+i} data={e}/>
           )
