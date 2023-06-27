@@ -15,6 +15,9 @@
     flex-wrap: wrap;
     align-items: center;
 }
+.paintingContainer {
+    padding-bottom: 15%;
+}
 
 .galleryPainting {
     padding: 1%;
@@ -23,6 +26,12 @@
 }
 
 @media (min-width: 614px){
+    
+    .paintingContainer {
+        padding-bottom: unset;
+        width: 43%;
+        padding: 2%;
+    }
     
     .gallery {
         margin-top: 13%;
@@ -37,8 +46,8 @@
     }
     
     .galleryPainting {
+        width: 80%;
         object-fit: cover;
-        width: 33%;
         justify-content: flex-start;
         aspect-ratio: 1/1;
         margin-top: 0%;
